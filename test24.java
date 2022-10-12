@@ -8,12 +8,24 @@ public class test24 {
         
       Scanner scan = new Scanner(System.in);
       int inputValue = scan.nextInt();
+      String value;
 
       System.out.println((inputValue == 1) ? "남성" : "여성");
+       // 1 -> 남성
+       if(inputValue == 1) {
+        value = "남성";
+     }
+     // 그외 -> 여성
+     else {
+        value = "여성";
+     }
+     
+  }
+}
+
       
       
 
         
-    }
     
-}
+    
